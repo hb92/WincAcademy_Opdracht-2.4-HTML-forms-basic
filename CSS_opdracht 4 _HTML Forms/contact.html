@@ -15,14 +15,20 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <!-- Netlify form-->
         <form name="contact" method="POST" data-netlify="true">
-            <label for="name">Naam:</label>
-            <input type="name" id="fname" name="name"><br>
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email"><br>
-            <label for="text">Uw bericht:</label>
-            <input type="text" id="text" name="text"><br>
-            <input type="submit" value="Submit"><br>
+            <p>
+                <label>Name: <input type="text" name="name" /></label>   
+              </p>
+              <p>
+                <label>E-mailadres: <input type="email" name="email" /></label>
+              </p>
+              <p>
+                <label>Uw bericht: <textarea name="message"></textarea></label>
+              </p>
+              <p>
+                <button type="submit">Verstuur</button>
+              </p>
         </form>
     </body>
 </html>
